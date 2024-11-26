@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function current_weather_theme() {
+  return [
+    'current_weather' => [
+      'variables' => [
+        'temperature' => NULL,
+        'icon' => NULL,
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,4 @@
+services:
+  current_weather.weather_service:
+    class: Drupal\current_weather\Service\WeatherService
+    arguments: []
